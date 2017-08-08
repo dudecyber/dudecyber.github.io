@@ -6,6 +6,8 @@
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -49,7 +51,7 @@
 				<div class="clearfix"></div>
 				<div class="row contact-form">
 				<div class="col-md-8">
-					<form action="http://eepurl.com/cRiXJP">
+					<form action="http://eepurl.com/cRiXJP" class="wow zoomIn" data-wow-delay="0.5s">
 					<h3 class="contact-head">Fill Your Details</h3>
 					<div class="contact-text">
 						<input type="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}"/>
@@ -64,7 +66,7 @@
 					</div>
 					</form>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow zoomIn" data-wow-delay="0.5s">
 					<div class="address">
 							<h3 class="contact-head">Adress</h3>
 							<p>1) 3530 S Echo Trail, Plano, TX</p>
@@ -89,7 +91,7 @@
 	<span class="line"></span><a href="#" class="line-anchor">Drop us A line</a><span class="line"></span>
 	<div class="clearfix"></div>
 	<div class="content-bottom">
-		<div class="row content-bottom-row">
+		<div class="row content-bottom-row wow fadeInLeft" data-wow-delay="0.5s">
 			<div class="col-md-4 bottom-row-column">
 				<span class="loc"></span><p class="ph">+1-510-516-2628</p>
 				<div class="clearfix"></div>
@@ -106,7 +108,7 @@
 		<div class="clearfix"></div>
 	</div>
 	<div class="content-bottom">
-		<div class="row content-bottom-row">
+		<div class="row content-bottom-row wow fadeInRight" data-wow-delay="0.5s">
 			<div class="col-md-4 bottom-row-column">
 				<span class="loc"></span><p class="ph">+91-9642-26696</p>
 				<div class="clearfix"></div>
@@ -141,5 +143,9 @@
 	</div>
 	<!--optinchat start-->
 	<script async='true' convid='4fEdmW6f73S4sSqx2udw5grb1633' id='oc_script' src='https://static.optinchat.com/optinchat.js'></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
 </body>
 </html>
